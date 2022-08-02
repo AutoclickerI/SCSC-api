@@ -27,12 +27,17 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
+    **Content:** 
+    `{ [post_id : 412, post_name : "Lorem ipsum", post_hit : 12],    
+       [post_id : 411, post_name : "dolor sit amet", post_hit : 11],    
+       [post_id : 410, post_name : "consectetur adipiscing elit", post_hit : 13],    
+       [post_id : 409, post_name : "sed do eiusmod", post_hit : 19],    
+       [post_id : 408, post_name : "tempor incididunt", post_hit : 8]    }`
  
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
+    **Content:** `{ error : "Page doesn't exist" }`
 
   OR
 
