@@ -48,7 +48,7 @@
 
   ```javascript
     $.ajax({
-      url: "/users/1",
+      url: "/users/:1?top=412",
       dataType: "json",
       type : "GET",
       success : function(r) {
