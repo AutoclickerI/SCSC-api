@@ -17,7 +17,8 @@
 
    **Required:**
  
-   `id=[integer]`
+   `board_id=[integer]`   
+   `post_id=[integer]`
 
 * **Data Params**
 
